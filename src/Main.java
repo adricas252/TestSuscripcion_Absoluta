@@ -6,7 +6,6 @@ public class Main {
                 new SuscripcionPorUso("Clara", 50.0, 1.50),
                 new SuscripcionFija("Sara", 35.02)
         };
-
         double totalCuotas = 0;
         for (Suscripcion suscripcion : suscripciones) {
             suscripcion.mostrarUsuario();
